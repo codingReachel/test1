@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+    <title>腾讯天气</title>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/rem.js"></script>
+    <script src="js/template.js"></script>
+    <script src="js/index.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="header-bar" id="header-bar">
+            <div class="header-bar-nav">
+                <div class="city">重庆</div>
+            </div>
+        </div>
+        <div class="header-box" id="header-box">
+            <div class="air">63</div>
+            <div class="pollu">良</div>
+        </div>
+        <div class="header-tem" id="header-tem">
+            <h2 class="tem">20°</h2>
+            <div class="wea">晴转多云</div>
+            <div class="win">北风 一级</div>
+            <div class="text">天暗下来，你就是阳光</div>
+        </div>
+    </div>
+    <div class="tq">
+        <div class="tq-tat">
+            <div class="tq-today">
+                <div class="tq-top">
+                    <span class="tq-today-top-left">今天</span>
+                    <span class="tq-today-top-right">17/3°</span>
+                </div>
+                <div class="tq-bottom">
+                    <span class="tq-today-bottom-left">晴转多云</span>
+                    <div class="tq-today-img"></div>
+                </div>
+            </div>
+            <div class="tq-tomorrow">
+                <div class="tq-top">
+                    <span class="tq-tomorrow-top-left">明天</span>
+                    <span class="tq-tomorrow-top-right">17/3°</span>
+                </div>
+                <div class="tq-bottom">
+                    <span class="tq-tomorrow-bottom-left">多云</span>
+                    <div class="tq-tomorrow-img"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="hours" id="hours">
+        <div class="hoursa">
+            <div class="hours-chart">
+                <h2 class="hours-time">12:00</h2>
+                <div class="hours-img"></div>
+                <h2 class="hours-tem">24°</h2>
+            </div>
+        </div>
+    </div>
+    <div class="days" id="days">
+        <div class="daysa">
+            <div class="days-charts">
+                <p>昨天</p>
+                <p>05/21</p>
+                <p>多云</p>
+                <p>18°</p>
+                <div class="days-imga"></div>
+
+                <div class="days-imgp"></div>
+                <p>28°</p>
+                <P>南风</P>
+                <P>3级</P>
+            </div>
+        </div>
+
+    </div>
+    <div class="fit">
+        <div class="fits">
+            <img src="imgs/chuanyi.png">
+            <p class="fit-center">舒适</p>
+            <p class="fit-bottom">穿衣</p>
+        </div>
+        <div class="fits">
+            <img src="imgs/yusan.png">
+            <p class="fit-center">舒适</p>
+            <p class="fit-bottom">雨伞</p>
+        </div>
+        <div class="fits">
+            <img src="imgs/ganmao.png">
+            <p class="fit-center">舒适</p>
+            <p class="fit-bottom">感冒</p>
+        </div>
+        <div class="fits">
+            <img src="imgs/xiche.png">
+            <p class="fit-center">舒适</p>
+            <p class="fit-bottom">洗车</p>
+        </div>
+        <div class="fits">
+            <img src="imgs/yudong.png">
+            <p class="fit-center">舒适</p>
+            <p class="fit-bottom">运动</p>
+        </div>
+        <div class="fits">
+            <img src="imgs/fangsai.png">
+            <p class="fit-center">舒适</p>
+            <p class="fit-bottom">防晒</p>
+        </div>
+        <div class="fits">
+            <img src="imgs/diaoyu.png">
+            <p class="fit-center">舒适</p>
+            <p class="fit-bottom">钓鱼</p>
+        </div>
+        <div class="fits">
+            <img src="imgs/lvyou.png">
+            <p class="fit-center">舒适</p>
+            <p class="fit-bottom">旅游</p>
+        </div>
+    </div>
+    <div class="info">
+        <div class="info-top">数据来源于中国天气网</div>
+        <div class="info-buttom">Copyright©1998-2021Tencent.All Rights Reserved</div>
+    </div>
+    <div class="loc">
+        <div class="search">
+            <div class="search-left">
+                <img src="imgs/search.png" alt="">
+                <input type="text" placeholder="搜索地区">
+            </div>
+            <div class="search-right">取消</div>
+        </div>
+        <div class="cities">
+            <h1 class="title">热门城市</h1>
+            <div class="city-box">
+                <div class="city-box1">北京</div>
+                <div class="city-box1">上海</div>
+                <div class="city-box1">广州</div>
+                <div class="city-box1">深圳</div>
+                <div class="city-box1">郑州</div>
+                <div class="city-box1">西安</div>
+                <div class="city-box1">南京</div>
+                <div class="city-box1">杭州</div>
+                <div class="city-box1">武汉</div>
+                <div class="city-box1">成都</div>
+                <div class="city-box1">沈阳</div>
+                <div class="city-box1">天津</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
